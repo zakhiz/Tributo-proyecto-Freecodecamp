@@ -116,19 +116,7 @@
     background: #cad2c5;
     font-family: 'Oxygen', sans-serif;
  }
- /*video referencia*/
- .container-video{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 20px;
-    background: #cad2c5;
- }
-  .video{
-    max-width: 100%;
-    height: 400px;
-  }
+
  /*pie de pagina*/
  .pie{
     background: #cad2c5;
