@@ -98,7 +98,9 @@
     text-align: center;
     font-family: 'Oxygen', sans-serif;
     font-size: 1.2em;
-    padding: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #cad2c5;
 }
 
 /*titulo de sus films*/
@@ -116,19 +118,7 @@
     background: #cad2c5;
     font-family: 'Oxygen', sans-serif;
  }
- /*video referencia*/
- .container-video{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 20px;
-    background: #cad2c5;
- }
-  .video{
-    max-width: 100%;
-    height: 400px;
-  }
+
  /*pie de pagina*/
  .pie{
     background: #cad2c5;
