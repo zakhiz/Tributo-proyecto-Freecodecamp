@@ -1,0 +1,167 @@
+/*fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+/*generales*/
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+/*main de la pagina*/
+#main{
+    background: #cad2c5;
+}
+/*titulo de la pagina*/
+#tittle{
+    padding: 6px;
+    background: #b7b7a4;    
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 0 0 60px 60px;
+    box-shadow: 0 4px 4px #000;
+}
+@media screen and (min-width:768px){
+  #tittle{
+    font-size: 3.5em;
+  } 
+}
+@media screen and (min-width:1024px){
+  #tittle{
+    font-size: 4.5em;
+  }
+}
+
+/*contenedor de imagen*/
+#img-div{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    
+  
+}
+/*imagen*/
+#image{
+   display: block;
+   margin: 20px;
+   max-width: 100%;
+   height: 300px;
+   border-radius: 10px;
+   border: 4px solid #a5a58d;
+}
+@media screen and (min-width:768px){
+    #image{
+        max-width: 100%;
+        height: 400px;
+    } 
+  }
+  @media screen and (min-width:1024px){
+    #image{
+        max-width: 100%;
+        height: 400px;
+    }
+  }
+
+/*descripcion de imagen*/
+#img-caption{
+    margin-bottom: 20px;
+    font-family: 'Cinzel', serif;
+    font-size: .9em;
+}
+@media screen and (min-width:768px){
+    #img-caption{
+        font-size: 1.1em;
+    } 
+  }
+  @media screen and (min-width:1024px){
+    #img-caption{
+        font-size: 1.2em;
+    }
+  }
+
+ /*contenedor de informacion*/
+ .container-info{
+    background: #b7b7a4;
+    border-top: 4px solid #a5a58d;
+    padding: 10px;
+ } 
+/*titulo de guia de la informacion*/
+ .who{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    padding: 10px;
+ }
+/*texto innformativo*/
+#tribute-info{
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+/*titulo de sus films*/
+ .films{
+    margin-left: 10px;
+    padding: 15px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.2em;
+ }
+ /*estilos de descripcion textual de sus peliculas*/
+ .pelicula{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #cad2c5;
+    font-family: 'Oxygen', sans-serif;
+ }
+ /*video referencia*/
+ .container-video{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    background: #cad2c5;
+ }
+  .video{
+    max-width: 100%;
+    height: 400px;
+  }
+ /*pie de pagina*/
+ .pie{
+    background: #cad2c5;
+    border-top: 6px solid #a5a58d;
+ }
+ /*titulo de links para mas info*/
+ .more{
+    margin-left: 10px;
+    padding: 15px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.2em;
+ }
+ /*links*/
+.links{
+    display: flex;
+    flex-direction: column;
+ }
+ /*estilos de los links*/
+ #tribute-link{
+    text-decoration: none;
+    padding: 4px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size:1.4em;
+    font-family: 'Oxygen', sans-serif;
+    color: #283d3b;
+ }
+ #tribute-link-2{
+    text-decoration: none;
+    padding: 4px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size:1.4em;
+    font-family: 'Oxygen', sans-serif;
+    color: #283d3b;
+ }
